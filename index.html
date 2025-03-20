@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Mood Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Record your mood !</h1>
+      <div class="calender-container">
+        <header>
+          <p class="current-date"></p>
+          <div class="icons">
+            <i class="ri-arrow-left-s-line" id="prev"></i>
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </header>
+
+        <div class="calender">
+          <ul class="weeks">
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li>Fri</li>
+            <li>Sat</li>
+          </ul>
+
+          <ul class="days">
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="legend-container">
+        <div><span class="circles" id="green"></span> Happy</div>
+        <div><span class="circles" id="yellow"></span> Neutral</div>
+        <div><span class="circles" id="gray"></span> Sad</div>
+        <div><span class="circles" id="red"></span> Angry</div>
+      </div>
+
+      <div class="mood-count-container">
+        <div id="happy-days">
+          <p id="happy-days-count">0</p>
+          <p>Happy Days</p>
+        </div>
+        <div id="neutral-days">
+          <p id="neutral-days-count">0</p>
+          <p>Neutral Days</p>
+        </div>
+        <div id="sad-days">
+          <p id="sad-days-count">0</p>
+          <p>Sad Days</p>
+        </div>
+        <div id="angry-days">
+          <p id="angry-days-count">0</p>
+          <p>Angry Days</p>
+        </div>
+      </div>
+
+      <div class="todays-mood">
+        <h3>Enter your today's mood</h3>
+        <button id="happy-button">😁</button>
+        <button id="neutral-button">😐</button>
+        <button id="sad-button">😔</button>
+        <button id="angry-button">😡</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
