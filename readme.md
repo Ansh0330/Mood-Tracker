@@ -5,7 +5,7 @@ A simple, elegant web application that allows users to track their daily moods a
 ![Daily Mood Tracker Screenshot](preview.png)
 
 ## Live link 
-Deployed at vercel : 
+Deployed at vercel : [Go to Mood Tracker](https://mood-tracker-iota-gray.vercel.app/)
 
 ## Features
 
